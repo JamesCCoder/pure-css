@@ -91,6 +91,6 @@ body{
   color: red;
   text-align: center;                                  /*  left    justify  */
   text-decoration: none;                               /* overline  line-through  underline   */
-
-
+  text-transform: uppercase;                           /* lowercase  capitalize   */
+  text-indent: 50px;
 }
