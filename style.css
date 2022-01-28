@@ -76,3 +76,21 @@ external
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 
 
+
+
+
+body{
+  background-color: red;
+  background-image:url('app.jpg');
+  background-repeat:repeat;                   /* no-repeat   repeat-x   repeat-y  */
+  background-position:center;                 /* right top  */
+  background-attachment: fixed;
+}
+
+body{
+  color: red;
+  text-align: center;                                  /*  left    justify  */
+  text-decoration: none;                               /* overline  line-through  underline   */
+
+
+}
