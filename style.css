@@ -93,4 +93,10 @@ body{
   text-decoration: none;                               /* overline  line-through  underline   */
   text-transform: uppercase;                           /* lowercase  capitalize   */
   text-indent: 50px;
+  text-shadow: 2px 2px red;
+  
+  vertical-align: text-top;                         /* text-buttom  */
+  letter-spacing: 2px;
+  word-spacing:30px;
+  line-height: 70%;
 }
