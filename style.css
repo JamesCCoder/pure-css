@@ -1,0 +1,51 @@
+/* note */
+
+
+selector:  1. *   2. class  3. id   4. element   5.attribute
+
+*{
+
+}
+
+p{
+
+}
+
+#demo{
+
+}
+
+.classname{
+
+}
+
+/* <a> that with "title" attribute*/
+a[title]{
+
+}
+
+/* a and b */
+span, div{
+
+}
+
+/* all b under a */
+span div{
+
+}
+
+/* all b under a in first generation */
+span > div{
+
+}
+
+/* all b just follow a */
+span ~ div{
+
+}
+
+/* one b just follow a */
+span + div{
+
+}
+
