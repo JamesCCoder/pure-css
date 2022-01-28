@@ -21,7 +21,7 @@ p{
 
 p.classname{
 
-  
+
 }
 
 /* <a> that with "title" attribute*/
@@ -58,4 +58,21 @@ span ~ div{
 span + div{
 
 }
+
+priority:
+inline > internal > external
+
+inline
+<p style="color:sienna;margin-left:20px">这是一个段落。</p>
+
+internal
+<style>
+hr {color:sienna;}
+p {margin-left:20px;}
+body {background-image:url("images/back40.gif");}
+</style>
+
+external
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
 
