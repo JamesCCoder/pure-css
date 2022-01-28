@@ -25,26 +25,31 @@ a[title]{
 }
 
 /* a and b */
+/* grouping selector */
 span, div{
 
 }
 
 /* all b under a */
+/* desendant conbinator */
 span div{
 
 }
 
 /* all b under a in first generation */
+/* child combinator */
 span > div{
 
 }
 
 /* all b just follow a */
+/* general sibling combinator */
 span ~ div{
 
 }
 
 /* one b just follow a */
+/* adjacent sibling combinator */
 span + div{
 
 }
