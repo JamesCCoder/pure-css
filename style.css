@@ -127,6 +127,8 @@ ul{
 
 width,height  -->  padding  --> border  -->  margin
 
+margin, border,padding  ->   top, buttom, left, right
+
 body{
    border-style: none;           /* solid dotted  dashed  double groove ridge inset outset hidden */
    border-width: 5px;
@@ -141,4 +143,13 @@ body{
   outline-color: red;
   outline-width: 2px;
 }
+
+body{
+  margin: 25px;            /* 上右下左，   上 左右 下  ， 上下  左右   */
+  padding: 23px;
+}
+
+
+区分：height(width)   max-height  min-height
+
 
