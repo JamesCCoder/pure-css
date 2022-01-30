@@ -120,3 +120,25 @@ ul{
   list-style-image: url("abc.gif");
   list-style-position: inside;                           /* outside  */
 }
+
+
+
+/* for box model  */
+
+width,height  -->  padding  --> border  -->  margin
+
+body{
+   border-style: none;           /* solid dotted  dashed  double groove ridge inset outset hidden */
+   border-width: 5px;
+   border-color: red;
+   /*  border-top-style
+       border-left-color
+   */
+}
+
+body{
+  outline-style: dotted;
+  outline-color: red;
+  outline-width: 2px;
+}
+
