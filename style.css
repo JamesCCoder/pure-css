@@ -152,4 +152,18 @@ body{
 
 区分：height(width)   max-height  min-height
 
+区分：visibilit：hidden/visible     和   display：none
 
+区分：
+
+diaplay: inline;
+display: block;
+display: inline-block;
+
+区分：
+
+position: static
+position: fixed
+position: ralative
+position: absolute
+position: sticky
