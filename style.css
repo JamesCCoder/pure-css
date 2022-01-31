@@ -178,9 +178,13 @@ clip:rect(0px,60px,200px,0px);             /* 和 position：absolute配合进�
 
 
 
+float 与 clear   
+
+float: left; 
+clear: both;
 
 
 其他：
 
 cursor:auto                                  /* 改变光标显示类型 */
-overflow: auto                               /* scroll visible hidden */
+overflow: auto                               /* overflow-x  overflow-y : scroll visible hidden */
