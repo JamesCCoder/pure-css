@@ -160,10 +160,27 @@ diaplay: inline;
 display: block;
 display: inline-block;
 
-区分：
+区分：(top, buttom, left, right)
+
+
+
+Position:
 
 position: static
 position: fixed
-position: ralative
-position: absolute
+position: ralative (原正常空间不变)
+position: absolute （父类）
 position: sticky
+
+position中的元素：
+z-index = -1;                              /*元素按照数字大小进行堆叠  https://developer.mozilla.org/zh-CN/docs/Web/CSS/z-index   */
+clip:rect(0px,60px,200px,0px);             /* 和 position：absolute配合进行裁剪 */
+
+
+
+
+
+其他：
+
+cursor:auto                                  /* 改变光标显示类型 */
+overflow: auto                               /* scroll visible hidden */
